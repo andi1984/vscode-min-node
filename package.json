@@ -44,6 +44,6 @@
     "vscode-test": "^1.4.1"
   },
   "dependencies": {
-    "min-node": "^0.4.0"
+    "min-node": "^0.5.0"
   }
 }
