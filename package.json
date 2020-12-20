@@ -3,12 +3,14 @@
   "displayName": "VSCode Min-Node",
   "description": "Detects the minimum node version for your project.",
   "version": "0.0.1",
+  "publisher": "andi1984",
   "engines": {
     "vscode": "^1.50.0"
   },
   "categories": [
     "Other"
   ],
+  "icon": "images/icon.png",
   "activationEvents": [
     "workspaceContains:package.json",
     "onCommand:min-node.calculate"
@@ -45,5 +47,29 @@
   },
   "dependencies": {
     "min-node": "^0.5.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/andi1984/vscode-min-node/issues",
+    "email": "andreas.sander@hotmail.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andi1984/vscode-min-node.git"
+  },
+  "keywords": [
+    "node",
+    "version",
+    "semver",
+    "dependencies",
+    "refactoring"
+  ],
+  "preview": true,
+  "badges": [
+    {
+      "url": "https://david-dm.org/andi1984/vscode-min-node/status.png",
+      "href": "https://david-dm.org/andi1984/vscode-min-node",
+      "description": "Dependencies"
+    }
+  ],
+  "homepage": "https://github.com/andi1984/vscode-min-node/blob/master/README.md"
 }
