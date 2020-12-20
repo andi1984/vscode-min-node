@@ -2,7 +2,7 @@
   "name": "min-node",
   "displayName": "VSCode Min-Node",
   "description": "Detects the minimum node version for your project.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "andi1984",
   "engines": {
     "vscode": "^1.51.0"
